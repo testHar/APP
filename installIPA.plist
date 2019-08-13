@@ -2,32 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://192.168.53.35:4433/ios/OKEx.ipa</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.okex.OKExAppstoreFull</string>
-                <key>bundle-version</key>
-                <string>1.2.2</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>releaseNotes</key>
-                <string>v1</string>
-                <key>title</key>
-                <string>OKEx</string>
-            </dict>
-        </dict>
-    </array>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>method</key>
+	<string>development</string>
+	<key>teamID</key>
+	<string>D5G53B2K3T</string>
+	<key>signingCertificate</key>
+	<string>iOS Developer</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.okex.OKExAppstoreFull</key>
+		<string>OKExAppstoreFull-dev-mp</string>
+	</dict>
+	<key>iCloudContainerEnvironment</key>
+	<string>Development</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>compileBitcode</key>
+	<false/>
 </dict>
 </plist>
